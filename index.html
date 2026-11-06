@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5f1ea">
+<meta name="description" content="A memorial page honoring Kaelan Hessey and the memories held close by those who knew him.">
+<title>Remembering Kaelan Hessey</title>
+<style>
+:root{--paper:#f5f1ea;--ink:#24352f;--muted:#68766e;--green:#536e60;--line:#d9ded5;--gold:#b9945b;--white:#fffdf9}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.65}
+a{color:inherit}
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1.1rem clamp(1.25rem,5vw,5rem);border-bottom:1px solid var(--line);font-family:Arial,sans-serif;font-size:.82rem;letter-spacing:.08em;text-transform:uppercase}
+.brand{font-weight:700;letter-spacing:.12em}
+.topbar nav{display:flex;gap:1.4rem;flex-wrap:wrap}
+.topbar nav a{text-decoration:none;color:var(--muted)}
+.hero{min-height:76vh;display:grid;place-items:center;text-align:center;padding:5rem 1.5rem 4.5rem;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 15%,#e4e9df 0,transparent 55%),var(--paper)}
+.hero:before,.hero:after{content:"";position:absolute;border:1px solid #c8d2c7;border-radius:50%;width:min(70vw,660px);aspect-ratio:1;opacity:.55;pointer-events:none}
+.hero:after{width:min(53vw,500px);border-color:#d7c7a8}
+.hero-inner{position:relative;z-index:1;max-width:760px}
+.eyebrow{font-family:Arial,sans-serif;text-transform:uppercase;letter-spacing:.24em;font-size:.73rem;color:var(--green);font-weight:700}
+h1{font-size:clamp(3.6rem,10vw,7.7rem);line-height:.98;font-weight:400;letter-spacing:-.055em;margin:1.1rem 0}
+.rule{width:62px;height:2px;background:var(--gold);margin:1.8rem auto}
+.hero p{font-size:clamp(1.1rem,2.2vw,1.4rem);color:var(--muted);max-width:550px;margin:0 auto}
+.scroll-note{display:inline-block;margin-top:3rem;font-family:Arial,sans-serif;text-transform:uppercase;letter-spacing:.16em;font-size:.7rem;color:var(--muted);text-decoration:none}
+section{padding:5rem clamp(1.25rem,7vw,7rem)}
+.section-inner{max-width:980px;margin:auto}
+.section-label{font-family:Arial,sans-serif;color:var(--green);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;font-weight:700}
+h2{font-size:clamp(2.1rem,5vw,3.5rem);line-height:1.1;font-weight:400;letter-spacing:-.035em;margin:.6rem 0 1.4rem}
+.intro{max-width:700px;font-size:1.18rem;color:#4f6057}
+.note{font-family:Arial,sans-serif;font-size:.88rem;color:var(--muted);border-left:2px solid var(--gold);padding:.5rem 0 .5rem 1rem;margin-top:2rem}
+.memories{background:#e9eee7}
+.memory-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2rem}
+.memory-card{background:var(--white);padding:1.5rem;min-height:190px;border:1px solid #e1e4dc}
+.memory-card .symbol{font-size:1.5rem;color:var(--gold)}
+.memory-card h3{font-weight:400;font-size:1.35rem;margin:.6rem 0}
+.memory-card p{font-family:Arial,sans-serif;font-size:.9rem;color:var(--muted);margin:0}
+.share{background:var(--green);color:#fffdf9;text-align:center}
+.share .section-label{color:#e4d2ad}
+.share .section-inner{max-width:680px}
+.share p{color:#e4e9e3;font-size:1.08rem}
+button{font:600 .86rem Arial,sans-serif;letter-spacing:.04em;border:1px solid #e9e3d7;background:transparent;color:#fffdf9;padding:.9rem 1.2rem;cursor:pointer;margin-top:1rem;transition:background .2s,color .2s}
+button:hover{background:#fffdf9;color:var(--green)}
+footer{padding:2rem 1.25rem;text-align:center;font-family:Arial,sans-serif;color:var(--muted);font-size:.78rem;letter-spacing:.04em}
+@media(max-width:680px){.topbar{align-items:flex-start;flex-direction:column}.topbar nav{gap:1rem}.hero{min-height:70vh}.memory-grid{grid-template-columns:1fr}.memory-card{min-height:auto}section{padding-top:3.8rem;padding-bottom:3.8rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home" aria-label="Remembering Kaelan Hessey, home" style="text-decoration:none">In Memory</a>
+  <nav aria-label="Main navigation">
+    <a href="#story">His memory</a>
+    <a href="#memories">Reflections</a>
+    <a href="#share">Leave a tribute</a>
+  </nav>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="eyebrow">Forever remembered</div>
+      <h1>Kaelan<br>Hessey</h1>
+      <div class="rule"></div>
+      <p>A place to remember Kaelan, share shit memories, and keep the moments that matter close.</p>
+      <a class="scroll-note" href="#story">↓ &nbsp; Remembering Kaelan</a>
+    </div>
+  </section>
+  <section id="story">
+    <div class="section-inner">
+      <div class="section-label">A life remembered</div>
+      <h2>His memory lives on.</h2>
+      <p class="intro">Every life leaves its mark in the stories we tell, the moments we carry, and the games we shared. This page is a space dedicated to Kaelan Hessey—and to the memories, laughter, and moments that those who knew him may wish to share.</p>
+      <p class="note">This memorial is a starting point. Add Kaelan’s stories, favorite memories, dates, photographs, and words from loved ones to make it personal.</p>
+    </div>
+  </section>
+  <section class="memories" id="memories">
+    <div class="section-inner">
+      <div class="section-label">Remember together</div>
+      <h2>Small moments. Lasting memories.</h2>
+      <p class="intro">Sometimes it’s the simplest details that bring someone close again: a familiar laugh, a favorite place, a story that never gets old.</p>
+      <div class="memory-grid">
+        <article class="memory-card"><div class="symbol" aria-hidden="true">✳</div><h3>A favorite memory</h3><p>Kaelan taking that shit twin</p></article>
+        <article class="memory-card"><div class="symbol" aria-hidden="true">♡</div><h3>What he meant to us</h3><p>Everything to his mommy</p></article>
+        <article class="memory-card"><div class="symbol" aria-hidden="true">✧</div><h3>Always with us</h3><p>Shit lasts forever</p></article>
+      </div>
+    </div>
+  </section>
+  <section class="share" id="share">
+    <div class="section-inner">
+      <div class="section-label">Leave a tribute</div>
+      <h2>Keep a memory close.</h2>
+      <p>If you have a memory of Kaelan you’d like to share, write it down and send it to the person maintaining this page. Each story can help keep his memory present for those who miss him.</p>
+      <button type="button" id="copy-message">Copy a tribute prompt</button>
+      <p id="copy-status" role="status" aria-live="polite" style="font-size:.82rem;min-height:1.5em"></p>
+    </div>
+  </section>
+</main>
+<footer>Made with care, in remembrance of Kaelan Hessey.</footer>
+<script>
+const button = document.getElementById('copy-message');
+const status = document.getElementById('copy-status');
+button.addEventListener('click', async () => {
+  const prompt = 'My memory of Kaelan Hessey: ';
+  try {
+    await navigator.clipboard.writeText(prompt);
+    status.textContent = 'Tribute prompt copied. Add your memory wherever you’d like to write it.';
+  } catch (e) {
+    status.textContent = 'My memory of Kaelan Hessey: (Copy this line and add your memory.)';
+  }
+});
+</script>
+</body>
+</html>
